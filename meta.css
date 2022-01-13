@@ -1,3 +1,9 @@
+/* W3SchoolExample
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+} */
+
 @media screen and (max-width: 420px) {
  
     * {
@@ -13,15 +19,13 @@
       /* BLOCCO LEZIONI */
       #lezioni .row>.left,
       #lezioni .row>.right {
-        width: 50%;
-        float: left;
+        width: 100%;
+        float: none;
       }
       
       #lezioni .row img {
         /* per centrare orizzontalmente */
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
+        width: 100%;
       }
       
       #lezioni {
@@ -32,8 +36,8 @@
       #steps .row>.left,
       #steps .row>.central,
       #steps .row>.right {
-        float: left;
-        width: 33%;
+        float: none;
+        width: 100%;
       }
       
       #steps {
@@ -67,6 +71,7 @@
       
       .container.grey {
         background-color: #f9f9f9;
+        border: 2px solid red;
       }
       
       img {
@@ -79,23 +84,3 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* W3SchoolExample
-@media screen and (min-width: 480px) {
-    #leftsidebar {width: 200px; float: left;}
-    #main {margin-left: 216px;}
-} */
